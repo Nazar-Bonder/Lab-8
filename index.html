@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chip & Byte — Сервісний центр (Лендинг)</title>
+  
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  
+  
+</head>
+<body>
+
+  <!-- Шапка -->
+  <header class="header">
+    <div class="header-container">
+      <a href="/" class="logo" aria-label="Chip & Byte Головна">
+        <img src="assets/icons/logo.svg" alt="" class="logo-icon" aria-hidden="true">
+        <span class="logo-text">Chip & Byte</span>
+      </a>
+      <nav class="nav-menu" aria-label="Головна навігація">
+        <a href="#services">Послуги</a>
+        <a href="#about">Про нас</a>
+        <a href="#testimonials">Відгуки</a>
+      </nav>
+      <div class="header-action">
+        <a href="#calculator" class="btn btn-primary">
+          Залишити заявку <i class="fa-solid fa-arrow-right icon-inline" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    
+    <!-- Hero Секція (Фон без прозорості, текст зліва) -->
+    <section class="hero-section hero-bg">
+      <div class="hero-container-left">
+        <div class="hero-text-block">
+          <span class="badge">Сервісний центр Chip & Byte</span>
+          <h1 class="hero-title">Професійний ремонт техніки з гарантією 12 місяців</h1>
+          <p class="hero-desc">
+            Від діагностики до складної пайки. Прозора ціна, відстеження статусів та ремонт без сюрпризів.
+          </p>
+          <div class="hero-buttons">
+            <a href="#calculator" class="btn btn-primary">
+              Отримати консультацію <i class="fa-solid fa-arrow-right icon-inline" aria-hidden="true"></i>
+            </a>
+          </div>
+          <ul class="hero-features">
+            <li class="feature-item"><i class="fa-solid fa-check icon-accent" aria-hidden="true"></i> Гарантія до 12 міс.</li>
+            <li class="feature-item"><i class="fa-solid fa-check icon-accent" aria-hidden="true"></i> 98% успішних ремонтів</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Секція Послуг -->
+    <section class="services-section" id="services">
+      <div class="services-container">
+        <span class="badge">Відповідально, оперативно, дієво.</span>
+        <h2 class="section-title">Наші послуги</h2>
+        <p class="section-desc">Оберіть потрібну послугу. Вартість та терміни — без зайвих питань.</p>
+        <div class="services-grid">
+          <!-- Картки послуг зі збереженням твого стилю -->
+          <article class="service-card">
+            <h3 class="card-title">Діагностика та аналіз</h3>
+            <p class="card-desc">Повний апаратний огляд вузлів комп'ютера.</p>
+            <div class="card-meta"><span class="badge-tag">Безкоштовно</span></div>
+            <a href="#calculator" class="btn btn-card">Замовити ремонт <i class="fa-solid fa-arrow-right icon-inline"></i></a>
+          </article>
+          <article class="service-card">
+            <h3 class="card-title">BGA-пайка та чіпи</h3>
+            <p class="card-desc">Заміна процесорів, відновлення доріжок.</p>
+            <div class="card-meta"><span class="badge-tag">від 1 200 грн</span></div>
+            <a href="#calculator" class="btn btn-card">Замовити ремонт <i class="fa-solid fa-arrow-right icon-inline"></i></a>
+          </article>
+          <article class="service-card">
+            <h3 class="card-title">Модернізація та апгрейд</h3>
+            <p class="card-desc">Встановлення швидких NVMe SSD, збільшення ОЗП.</p>
+            <div class="card-meta"><span class="badge-tag">від 450 грн</span></div>
+            <a href="#calculator" class="btn btn-card">Замовити ремонт <i class="fa-solid fa-arrow-right icon-inline"></i></a>
+          </article>
+        </div>  
+      </div>
+    </section>
+
+    <!-- Секція Про нас (Embed Video) -->
+    <section class="about-section" id="about">
+      <div class="about-container">
+        <div class="about-content">
+          <span class="badge">Прозорий процес</span>
+          <h2 class="section-title">Як ми працюємо</h2>
+          <p class="section-desc">Подивіться за лаштунки нашого сервісу. Ми використовуємо сучасне обладнання та дотримуємося антистатичних стандартів.</p>
+        </div>
+        <div class="video-wrapper">
+          <!-- Ліниве завантаження iframe для продуктивності -->
+          <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube-nocookie.com/embed/ekkzRgEkYFA" 
+            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto;object-fit:cover}span{height:1.5em;text-align:center;font:64px/1.5 sans-serif;color:#ffffff;text-shadow:0 0 0.5em #000000;transition:transform 0.2s ease-in-out}a:hover span{transform:scale(1.1)}</style><a href=https://www.youtube-nocookie.com/embed/ekkzRgEkYFA?autoplay=1><img src=https://img.youtube.com/vi/ekkzRgEkYFA/hqdefault.jpg alt='Промо відео майстерні'><span>▶</span></a>"
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen 
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Відгуки -->
+    <section class="testimonials-section" id="testimonials">
+      <div class="testimonials-container">
+        <h2 class="section-title text-center">Що кажуть клієнти</h2>
+        <div class="testimonials-grid">
+          <article class="testimonial-card">
+            <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <p class="testimonial-text">"Відновили залитий макбук, хоча в іншому сервісі сказали міняти плату. Дуже дякую!"</p>
+            <strong class="testimonial-author">Олексій М.</strong>
+          </article>
+          <article class="testimonial-card">
+            <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            <p class="testimonial-text">"Сподобався прозорий розрахунок. Ціна не змінилась після ремонту."</p>
+            <strong class="testimonial-author">Ірина В.</strong>
+          </article>
+          <article class="testimonial-card">
+            <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+            <p class="testimonial-text">"Зробили швидко, але довелось почекати деталь з Європи. Проте сервіс на висоті."</p>
+            <strong class="testimonial-author">Максим С.</strong>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Калькулятор-заявка (Netlify Form) -->
+    <section class="calculator-section" id="calculator">
+      <div class="calculator-container">
+        <div class="calc-header">
+          <span class="badge">Онлайн заявка</span>
+          <h2 class="section-title">Розрахунок та оформлення</h2>
+          <p class="section-desc">Оберіть проблеми вашого пристрою. Ми розрахуємо орієнтовну вартість робіт.</p>
+        </div>
+
+        <form class="lead-form" name="repair-request" method="POST" data-netlify="true">
+          <!-- Невидиме поле для Netlify -->
+          <input type="hidden" name="form-name" value="repair-request">
+          
+          <div class="problem-grid" id="problemGrid">
+            <!-- Квадратні кнопки-чекбокси -->
+            <label class="problem-toggle">
+              <input type="checkbox" name="problems[]" value="Батарея" data-price="800" class="visually-hidden">
+              <span class="toggle-content">
+                <i class="fa-solid fa-battery-quarter"></i>
+                <span class="problem-name">Заміна акумулятора</span>
+                <span class="problem-price">від 800 ₴</span>
+              </span>
+            </label>
+
+            <label class="problem-toggle">
+              <input type="checkbox" name="problems[]" value="Екран" data-price="1200" class="visually-hidden">
+              <span class="toggle-content">
+                <i class="fa-solid fa-display"></i>
+                <span class="problem-name">Заміна екрана</span>
+                <span class="problem-price">від 1200 ₴</span>
+              </span>
+            </label>
+
+            <label class="problem-toggle">
+              <input type="checkbox" name="problems[]" value="Чистка" data-price="500" class="visually-hidden">
+              <span class="toggle-content">
+                <i class="fa-solid fa-fan"></i>
+                <span class="problem-name">Чистка та термопаста</span>
+                <span class="problem-price">від 500 ₴</span>
+              </span>
+            </label>
+
+            <label class="problem-toggle">
+              <input type="checkbox" name="problems[]" value="Віндовс" data-price="400" class="visually-hidden">
+              <span class="toggle-content">
+                <i class="fa-brands fa-windows"></i>
+                <span class="problem-name">Встановлення ОС</span>
+                <span class="problem-price">від 400 ₴</span>
+              </span>
+            </label>
+          </div>
+
+          <!-- Блок "Інше" -->
+          <div class="other-problem-block">
+            <label class="problem-toggle full-width">
+              <input type="checkbox" id="otherToggle" class="visually-hidden">
+              <span class="toggle-content">
+                <i class="fa-solid fa-circle-question"></i>
+                <span class="problem-name">Інше / Не впевнений</span>
+                <span class="problem-price">Після діагностики</span>
+              </span>
+            </label>
+            <div class="other-textarea-wrapper" id="otherTextarea">
+              <textarea name="other_details" class="form-input" rows="3" maxlength="300" placeholder="Опишіть симптоми"></textarea>
+            </div>
+          </div>
+
+          <!-- Результат та Контакти -->
+          <div class="form-footer">
+            <div class="price-result">
+              <span>Орієнтовна вартість робіт:</span>
+              <strong id="totalPrice">0 ₴</strong>
+              <small class="form-hint">+ вартість запчастин</small>
+            </div>
+            
+            <div class="contact-inputs">
+              <input type="text" name="name" class="form-input" placeholder="Ваше ім'я" required>
+              <input type="tel" name="phone" class="form-input" placeholder="+380" required>
+              <button type="submit" class="btn btn-primary w-full">Записатись на ремонт</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-col brand-col">
+        <a href="/" class="logo" aria-label="Chip & Byte Головна">
+          <img src="assets/icons/logo.svg" alt="" class="logo-icon" aria-hidden="true">
+          <span class="logo-text">Chip & Byte</span>
+        </a>
+        <p class="brand-desc">Ремонт комп'ютерної техніки та електроніки. Точність у деталях, турбота про ваші пристрої.</p>
+        <p class="copyright">&copy; 2026 Chip & Byte. Всі права захищені.</p>
+      </div>
+
+      <div class="footer-col">
+        <strong class="col-title">Завітайте до сервісу</strong>
+        <address class="contact-info">
+          <span class="contact-item">Пн-Сб 09:00 – 19:00</span>
+          <span class="contact-item">вул. Лукаша, 4в</span>
+          <span class="contact-item"><a href="tel:+380441234567">+380 (44) 123-45-67</a></span>
+        </address>
+      </div>
+
+      <nav class="footer-col" aria-label="Навігація у підвалі">
+        <strong class="col-title">Навігація</strong>
+        <ul class="footer-links">
+          <li><a href="#services">Послуги</a></li>
+          <li><a href="#calculator">Калькулятор</a></li>
+          <li><a href="#about">Про нас</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-col" aria-label="Додаткова інформація">
+        <strong class="col-title">Інформація</strong>
+        <ul class="footer-links">
+          <li><a href="#faq">Для бізнесу</a></li>
+          <li><a href="#contacts">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    const checkboxes = document.querySelectorAll('#problemGrid input[type="checkbox"]');
+    const otherToggle = document.getElementById('otherToggle');
+    const otherTextareaWrapper = document.getElementById('otherTextarea'); // Обгортка
+    const otherTextareaInput = otherTextareaWrapper.querySelector('textarea'); // Саме поле
+    const totalPriceEl = document.getElementById('totalPrice');
+
+    // Логіка показу текстового поля "Інше"
+    otherToggle.addEventListener('change', (e) => {
+      if (e.target.checked) {
+        otherTextareaWrapper.classList.add('visible');
+        // Тригеримо авто-розширення при показі, щоб воно прийняло правильний розмір під збережений текст
+        otherTextareaInput.dispatchEvent(new Event('input'));
+      } else {
+        otherTextareaWrapper.classList.remove('visible');
+        // Очищаємо inline-стилі, щоб CSS зміг стиснути блок назад до 0
+        otherTextareaWrapper.style.maxHeight = null;
+      }
+      calculateTotal();
+    });
+
+    // Логіка авто-розширення текстового поля
+    otherTextareaInput.addEventListener('input', function() {
+      this.style.height = 'auto';
+      this.style.height = (this.scrollHeight) + 'px';
+      
+      if (otherTextareaWrapper.classList.contains('visible')) {
+         // Задаємо max-height динамічно, щоб обгортка розтягувалась за полем
+         otherTextareaWrapper.style.maxHeight = (this.scrollHeight + 40) + 'px';
+      }
+    });
+
+    // Логіка підрахунку
+    function calculateTotal() {
+      let prices = [];
+      checkboxes.forEach(cb => {
+        if (cb.checked) {
+          prices.push(parseInt(cb.dataset.price));
+        }
+      });
+
+      if (otherToggle.checked) {
+         totalPriceEl.textContent = "Після діагностики";
+         totalPriceEl.style.fontSize = "18px"; 
+         return;
+      }
+
+      if (prices.length === 0) {
+         totalPriceEl.textContent = "Оберіть послугу";
+         totalPriceEl.style.fontSize = "18px";
+         return;
+      }
+
+      totalPriceEl.style.fontSize = "var(--font-size-h2)"; 
+      
+      prices.sort((a, b) => b - a);
+      
+      let total = prices[0];
+      for (let i = 1; i < prices.length; i++) {
+        total += prices[i] * 0.5;
+      }
+
+      totalPriceEl.textContent = `від ${total} ₴`;
+    }
+
+    checkboxes.forEach(cb => {
+      cb.addEventListener('change', calculateTotal);
+    });
+
+    calculateTotal();
+  </script>
+</body>
+</html>
